@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<objects font="fonts/big.fnt">
+	<object>
+		<init>
+			<action type="script">preloadSound2("menu.click");</action>
+			<action type="script">preloadSound2("menu.type");</action>
+		</init>
+
+		<focus>
+			<gained>
+				<action type="script">playStream2("menusong", "menu/PH-BucklingTheSwash.mp3", true);</action>
+			</gained>
+			<lost>
+				<action type="script">stopStream2("menusong");</action>
+			</lost>
+		</focus>
+	</object>
+
+	<include src="menu/base.xml"/>
+
+	<states>
+		<state src="menu/states/main.xml"/>
+		<state src="menu/states/options.xml"/>
+		<state src="menu/states/quit.xml"/>
+		<state src="menu/states/help.xml"/>
+	</states>
+
+	<include src="menu/cursor.xml"/>
+	
+</objects>

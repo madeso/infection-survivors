@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<materials>
+	<material name="cave">
+		<ambient gray="0.6"/>
+		<diffuse gray="0.6"/>
+		<emissive gray="0"/>
+		<specular gray="0.9">
+			<exponent value="0.0"/>
+		</specular>
+		<alpha value="1.0"/>
+		<texture>
+			<color>materials/textures/alien_chamber/generic_cave.llt</color>
+		</texture>
+	</material>
+
+	<material name="sack">
+		<ambient gray="0.6"/>
+		<diffuse gray="0.6"/>
+		<emissive gray="0"/>
+		<specular gray="0.9">
+			<exponent value="0.0"/>
+		</specular>
+		<alpha value="1.0"/>
+		<texture>
+			<color>materials/textures/alien_chamber/organic_red.llt</color>
+			<normal>materials/textures/alien_chamber/sack_lowNormalsMaps.llt</normal>
+			<specular>materials/textures/alien_chamber/organic_specular.llt</specular>
+		</texture>
+	</material>
+
+	<material name="pointy">
+		<ambient gray="0.6"/>
+		<diffuse gray="0.6"/>
+		<emissive gray="0"/>
+		<specular gray="0.9">
+			<exponent value="0.0"/>
+		</specular>
+		<alpha value="1.0"/>
+		<texture>
+			<color>materials/textures/alien_chamber/organic_red.llt</color>
+			<normal>materials/textures/alien_chamber/pointy_lowNormalsMaps.llt</normal>
+		</texture>
+	</material>
+
+	<material name="peni">
+		<ambient gray="0.6"/>
+		<diffuse gray="0.6"/>
+		<emissive gray="0"/>
+		<specular gray="0.9">
+			<exponent value="0.0"/>
+		</specular>
+		<alpha value="1.0"/>
+		<texture>
+			<color>materials/textures/alien_chamber/organic_red.llt</color>
+			<normal>materials/textures/alien_chamber/peni_lowNormalsMaps.llt</normal>
+		</texture>
+	</material>
+
+	<material name="egg">
+		<ambient gray="0.6"/>
+		<diffuse gray="0.6"/>
+		<emissive gray="0"/>
+		<specular gray="0.9">
+			<exponent value="0.0"/>
+		</specular>
+		<alpha value="1.0"/>
+		<texture>
+			<color>materials/textures/alien_chamber/egg_lowDiffuseMap_org.llt</color>
+			<normal>materials/textures/alien_chamber/egg_lowNormalsMap.llt</normal>
+			<emissive>materials/textures/alien_chamber/egg_lowSelfillu.llt</emissive>
+		</texture>
+	</material>
+</materials>

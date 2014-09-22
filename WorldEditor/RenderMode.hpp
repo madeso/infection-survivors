@@ -1,0 +1,11 @@
+#ifndef LLW_RENDER_MODE_HPP
+#define LLW_RENDER_MODE_HPP
+
+enum RenderMode {
+	RM_WIREFRAME,
+	RM_HIDDEN_LINE,
+	RM_OBSCURED_LINE,
+	RM_HALOED_LINE
+};
+
+#endif

@@ -1,0 +1,35 @@
+.\System.cpp(6) : Initializing File system
+.\System.cpp(6) : Initializing SGL system
+.\System.cpp(6) : Initializing OpenGL system
+.\OpenglSystem.cpp(28) : Open GL Version: 4.3.0
+.\OpenglSystem.cpp(29) : Open GL Vendor: NVIDIA Corporation
+.\OpenglSystem.cpp(30) : Open GL Renderer: GeForce GTX 670/PCIe/SSE2
+.\System.cpp(6) : Initializing Font format system
+.\System.cpp(6) : Initializing DevIL system
+.\System.cpp(6) : Initializing Language system
+.\System.cpp(6) : Initializing Game Monkey v1.24 system
+.\System.cpp(6) : Initializing FMOD Ex v4.6:1 system
+.\State.cpp(22) : Initializing game state
+.\State.cpp(22) : Initializing loader state
+.\State.cpp(22) : Initializing main state
+.\State.cpp(22) : Initializing display state
+.\State.cpp(22) : Initializing console state
+.\State.cpp(22) : Initializing tweakers state
+.\State.cpp(22) : Initializing messages state
+.\Game.cpp(274) : --- Main loop: started ---
+.\Game.cpp(329) : --- Main loop: ended -----
+.\State.cpp(26) : de-Initializing main state
+.\State.cpp(26) : de-Initializing game state
+.\State.cpp(26) : de-Initializing loader state
+.\State.cpp(26) : de-Initializing tweakers state
+.\State.cpp(26) : de-Initializing display state
+.\State.cpp(26) : de-Initializing messages state
+.\State.cpp(26) : de-Initializing console state
+.\System.cpp(9) : De-Initializing FMOD Ex v4.6:1 system
+.\System.cpp(9) : De-Initializing Game Monkey v1.24 system
+.\System.cpp(9) : De-Initializing Language system
+.\System.cpp(9) : De-Initializing DevIL system
+.\System.cpp(9) : De-Initializing Font format system
+.\System.cpp(9) : De-Initializing OpenGL system
+.\System.cpp(9) : De-Initializing SGL system
+.\System.cpp(9) : De-Initializing File system

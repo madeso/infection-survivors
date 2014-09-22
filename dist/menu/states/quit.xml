@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<state name="quit">
+	<object x="0.05" y="0.7">
+		<display type="text" text="menu.Quit?"/>
+	</object>
+	<object x="0.2" y ="0.6">
+		<display type="text" text="menu.Quit.Yes" hover="yes"/>
+		<on value="click">
+			<action type="script">:click</action>
+			<action type="script">:exit</action>
+		</on>
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.Quit.Yes.Help"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object x="0.2" y ="0.5">
+		<display type="text" text="menu.Quit.No" hover="yes"/>
+		<on value="click">
+			<action type="goBack"/>
+			<action type="script">:click</action>
+		</on>
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.BackToMain"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object>
+		<onKey key="Escape">
+			<action type="script">:keyclick</action>
+			<action type="transition" to="main"/>
+		</onKey>
+		<onKey key="Return">
+			<action type="script">:keyclick</action>
+			<action type="script">:exit</action>
+		</onKey>
+	</object>
+</state>

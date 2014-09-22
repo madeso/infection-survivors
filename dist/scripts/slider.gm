@@ -1,0 +1,22 @@
+global slider = 0.0;
+global sliderIndex;
+
+global getSliderValue = function() {
+  global slider;
+  return slider;
+};
+global setSliderValue = function(iNewValue) {
+  global slider;
+  slider = iNewValue;
+};
+global onDragSlider = function(x, y) {
+  global sliderIndex;
+  if( sliderIndex == 1) {
+    setSliderValue(x);
+  }
+};
+global onClickSlider = function(x, y) {
+  global sliderIndex;
+  setSliderValue(x);
+  sliderIndex = 1;
+};

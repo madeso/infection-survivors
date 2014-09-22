@@ -1,0 +1,9 @@
+global check = true;
+global getCheck = function() {
+  global check;
+  return check;
+};
+global toggleCheck = function() {
+  global check;
+  check = !check;
+};

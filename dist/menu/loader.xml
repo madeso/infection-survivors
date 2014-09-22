@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<objects font="fonts/big.fnt">
+	<include src="menu/base.xml"/>
+
+	<object x="0.05" y ="0.05" width="1.1" height="0.06">
+		<display type="slider" slider="menu/sliderbkg.llt" offsetX="0.04"/>
+	</object>
+	<object x="0.05" y ="0.05" width="1.1" height="0.06">
+		<display type="slider" slider="menu/sliderprogress.llt" offsetX="0.04" test="getProgress"/>
+	</object>
+
+	<object x="1.25" y ="0.07">
+		<display type="text" justify="left" job="loader.percent">
+			<text name="percent" type="callback" value="getProgressAsPercent"/>
+		</display>
+	</object>
+
+	<include src="menu/cursor.xml"/>
+</objects>

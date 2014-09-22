@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<strings>
+	<string id="imgui.button" value="{ @text } "/>
+	<string id="imgui.button.active" value="color: red { @text } "/>
+	<string id="console.start" value="color: yellow { console.start } "/>
+	<string id="console.count" value=" { console.count @count console.count.end  @lim} "/>
+	<string id="console.middle" value="{ @input }"/>
+	<string id="console.cmd" value="{ @cmd }"/>
+	<string id="console.cursor" value="{ @cursor }"/>
+	<string id="console.end" value="{ @input }"/>
+	<string id="console.help" value="{ @help }"/>
+	<string id="message.echo" value="{ @message }"/>
+	<string id="display.ok" value="{ @name display.middle @text }"/>
+	<string id="display.bad" value="color: red { @name display.middle @text }"/>
+	<string id="menu.label" value="{ @text }"/>
+	<string id="menu.label.hover" value="color: #6666FF { @text }"/>
+	<string id="menu.help" value="{ @help }"/>
+	<string id="menu.edit" value="{ @name @input @cursor }"/>
+	<string id="loader.percent" value="{ @percent }"/>
+</strings>

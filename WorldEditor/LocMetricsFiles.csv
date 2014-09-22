@@ -1,0 +1,17 @@
+
+File,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD,HCLOC,HCWORD
+D:\dev\infection\WorldEditor\ErasorTool.cpp,24,22,13,4,2,0,0,0,0,0
+D:\dev\infection\WorldEditor\main.cpp,17,13,8,1,3,0,1,1,0,0
+D:\dev\infection\WorldEditor\MainFrame.cpp,168,94,57,3,24,0,50,96,0,0
+D:\dev\infection\WorldEditor\PenTool.cpp,66,28,17,6,5,0,33,79,0,0
+D:\dev\infection\WorldEditor\Tool.cpp,15,13,7,3,2,0,0,0,0,0
+D:\dev\infection\WorldEditor\World.cpp,950,743,547,133,151,2,56,257,0,0
+D:\dev\infection\WorldEditor\WorldView.cpp,190,155,100,15,27,1,8,70,0,0
+D:\dev\infection\WorldEditor\ErasorTool.hpp,15,12,6,0,3,0,0,0,0,0
+D:\dev\infection\WorldEditor\MainFrame.hpp,37,27,18,0,10,0,0,0,0,0
+D:\dev\infection\WorldEditor\PenTool.hpp,18,14,8,0,4,0,0,0,0,0
+D:\dev\infection\WorldEditor\RenderMode.hpp,11,9,2,0,2,0,0,0,0,0
+D:\dev\infection\WorldEditor\Tool.hpp,25,21,12,0,4,0,0,0,0,0
+D:\dev\infection\WorldEditor\ToolAction.hpp,9,7,2,0,2,0,0,0,0,0
+D:\dev\infection\WorldEditor\World.hpp,174,125,106,0,48,1,1,14,0,0
+D:\dev\infection\WorldEditor\WorldView.hpp,49,34,22,0,15,0,0,0,0,0

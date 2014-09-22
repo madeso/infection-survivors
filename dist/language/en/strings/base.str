@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<language>
+	<string id="imgui.drop.next" value="[next]"/>
+	<string id="imgui.drop.previous" value="[previous]"/>
+	<string id="display.middle" value=": "/>
+	<string id="console.start" value="ll> "/>
+	<string id="console.count" value="Found "/>
+	<string id="console.count.end" value=" matches (too many), showing first "/>
+	<string id="menu.cursor" value="_"/>
+	<string id="tweak.start" value="Tweak"/>
+	
+	<!-- Main Menu -->
+	<string id="menu.Quit" value="Quit"/>
+	<string id="menu.Quit.Help" value="Stop playing Survivors"/>
+	<string id="menu.Options" value="Options"/>
+	<string id="menu.Options.Help" value="Configure controls, display, sound etc."/>
+	<string id="menu.Game" value="New Game"/>
+	<string id="menu.Game.Help" value="Start a new game of Survivors!"/>
+
+	<!-- Options Menu -->
+	<string id="menu.Option.Screen" value="Options"/>
+	<string id="menu.Options.Edit" value="Name: "/>
+	<string id="menu.Options.Edit.Help" value="Type in your profile name"/>
+	<string id="menu.Options.Back" value="Back"/>
+
+	<!-- Quit Menu -->
+	<string id="menu.Quit?" value="Are you sure you want to quit?"/>
+	<string id="menu.Quit.Yes" value="Yes"/>
+	<string id="menu.Quit.No" value="No"/>
+	<string id="menu.Quit.Yes.Help" value="Return to Windows"/>
+
+	<string id="menu.BackToMain" value="Go back to the main menu"/>
+	<string id="menu.help" value="Help: "/>
+</language>

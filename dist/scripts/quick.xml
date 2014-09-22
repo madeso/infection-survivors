@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<commands>
+	<command name="exit" help="Exits the game">
+		exit();
+	</command>
+	<command name="load" help="loads a level, arg1 is the level file">
+		game.load("%1");
+	</command>
+	<command name="startGame" help="Starts a new game">
+		game.load("levels/alien_chamber.obj.wrld");
+	</command>
+	<command name="cls" help="Clears all the messages">
+		clearMessages();
+	</command>
+	<command name="click" help="Plays the menu click sound when navigating with the mouse">
+		playSound2("menu.click");
+	</command>
+	<command name="keyclick" help="Plays the menu click sound when navigating with the key">
+		playSound2("menu.click");
+	</command>
+	<command name="type" help="Plays the menu type sound when typing the keyboard">
+		playSound2("menu.type");
+	</command>
+</commands>

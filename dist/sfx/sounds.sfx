@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<sounds>
+	<base src="sfx">
+		<directory src="menu"/>
+	</base>
+</sounds>

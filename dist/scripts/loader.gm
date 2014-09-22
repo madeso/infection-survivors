@@ -1,0 +1,3 @@
+global getProgressAsPercent = function () {
+	return round(100*getProgress()).Int() + "%";
+};

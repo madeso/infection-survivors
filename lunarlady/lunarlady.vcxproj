@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5F3CDD0E-CD0B-4B09-8276-3D2C2F9F3EDA}</ProjectGuid>
+    <RootNamespace>lunarlady</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)dist\System_$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)dist\System_$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalOptions>/ignore:4006 /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>sgl.lib;DevIL.lib;physfs.lib;gm.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\dev\sgl\debug;D:\ms_dep\lib\debug;D:\ms_dep\game_monkey_1_25\gmsrc\src\gm\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/ignore:4006 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>sgl.lib;DevIL.lib;physfs.lib;gm.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\ms_dep\lib\release;D:\dev\sgl\release;D:\ms_dep\game_monkey_1_25\gmsrc\src\gm\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ComponentObject2.cpp" />
+    <ClCompile Include="ConsoleState.cpp" />
+    <ClCompile Include="DevilSystem.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="LanguageSystem.cpp" />
+    <ClCompile Include="Loaded.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="MaterialDefinition.cpp" />
+    <ClCompile Include="MaterialDefinitionContainer.cpp" />
+    <ClCompile Include="Media.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MessageState.cpp" />
+    <ClCompile Include="Object2.cpp" />
+    <ClCompile Include="OpenGL_util.cpp" />
+    <ClCompile Include="OpenglSystem.cpp" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="PrintJob.cpp" />
+    <ClCompile Include="Rgb.cpp" />
+    <ClCompile Include="Rgba.cpp" />
+    <ClCompile Include="ScriptSystem.cpp" />
+    <ClCompile Include="SglSystem.cpp" />
+    <ClCompile Include="SoundSystem.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StaticsState.cpp" />
+    <ClCompile Include="StringFormat.cpp" />
+    <ClCompile Include="StringFormatSystem.cpp" />
+    <ClCompile Include="StringUtils.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="TextObject2.cpp" />
+    <ClCompile Include="TweakState.cpp" />
+    <ClCompile Include="World2.cpp" />
+    <ClCompile Include="World3.cpp" />
+    <ClCompile Include="WorldState.cpp" />
+    <ClCompile Include="Xml.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="convertColorBetweenBlue.cpp" />
+    <ClCompile Include="convertColorBetweenGreen.cpp" />
+    <ClCompile Include="convertColorBetweenRed.cpp" />
+    <ClCompile Include="ConvertUTF.c" />
+    <ClCompile Include="UtfConverter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cache.hpp" />
+    <ClInclude Include="ComponentObject2.hpp" />
+    <ClInclude Include="Config.hpp" />
+    <ClInclude Include="Display.hpp" />
+    <ClInclude Include="Error.hpp" />
+    <ClInclude Include="File.hpp" />
+    <ClInclude Include="FileSystem.hpp" />
+    <ClInclude Include="Font.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Image.hpp" />
+    <ClInclude Include="Language.hpp" />
+    <ClInclude Include="Loaded.hpp" />
+    <ClInclude Include="Loader.hpp" />
+    <ClInclude Include="Log.hpp" />
+    <ClInclude Include="MaterialDefinition.hpp" />
+    <ClInclude Include="MaterialDefinitionContainer.hpp" />
+    <ClInclude Include="Media.hpp" />
+    <ClInclude Include="Menu.hpp" />
+    <ClInclude Include="Message.hpp" />
+    <ClInclude Include="Object2.hpp" />
+    <ClInclude Include="OpenGL_util.hpp" />
+    <ClInclude Include="Printer.hpp" />
+    <ClInclude Include="PrintJob.hpp" />
+    <ClInclude Include="Rgb.hpp" />
+    <ClInclude Include="Rgba.hpp" />
+    <ClInclude Include="Script.hpp" />
+    <ClInclude Include="Sound.hpp" />
+    <ClInclude Include="State.hpp" />
+    <ClInclude Include="StringFormat.hpp" />
+    <ClInclude Include="StringMap.hpp" />
+    <ClInclude Include="StringUtils.hpp" />
+    <ClInclude Include="System.hpp" />
+    <ClInclude Include="TemplatedMedia.hpp" />
+    <ClInclude Include="TextObject2.hpp" />
+    <ClInclude Include="Tweak.hpp" />
+    <ClInclude Include="Types.hpp" />
+    <ClInclude Include="World2.hpp" />
+    <ClInclude Include="World3.hpp" />
+    <ClInclude Include="WorldState.hpp" />
+    <ClInclude Include="Xml.hpp" />
+    <ClInclude Include="Color.hpp" />
+    <ClInclude Include="convertColorBetweenBlue.hpp" />
+    <ClInclude Include="convertColorBetweenGreen.hpp" />
+    <ClInclude Include="convertColorBetweenRed.hpp" />
+    <ClInclude Include="ConvertUTF.h" />
+    <ClInclude Include="UtfConverter.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExpectedOutput.txt" />
+    <None Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\xml\xml.vcxproj">
+      <Project>{85a18f55-dc26-4369-9431-2f7a7068e8ab}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="files\lunarlady_files.vcxproj">
+      <Project>{cbeaacdb-6f7f-4a57-bf47-b64eb074697c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="math\math.vcxproj">
+      <Project>{996308a9-d23e-4107-8e00-dcdb6b5dc785}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

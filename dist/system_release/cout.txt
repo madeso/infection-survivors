@@ -1,0 +1,26 @@
+SGL for windows initialized
+SGL ---------------------------------------------
+SGL setting video mode: 800x600x32 in fullscreen
+Hiding cursor
+SGL registrering window class
+SGL Trying to select fullscreen
+SGL Adjusting window rect
+SGL Creating window
+SGL getting dc
+SGL choosing pixelformat
+SGL setting pixelformat
+SGL creating context
+SGL making current
+SGL showing window
+SGL Using GLEW 1.3.6
+SGL init videomode done
+SGL -------------------------------------------
+SGL -------------------------------
+SGL changing display settings
+SGL making current
+SGL deleting context
+SGL releasing dc
+SGL destroying window
+SGL unregistrering class
+SGL for windows unitialized
+SGL ---------------------------------

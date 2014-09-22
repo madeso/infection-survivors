@@ -1,0 +1,20 @@
+global mouseDown = false;
+global sliderIndex = -1;
+
+global setMouseDown = function() {
+	global mouseDown;
+	mouseDown = true;
+};
+
+global setMouseUp = function () {
+	global mouseDown;
+	global sliderIndex;
+	
+	mouseDown = false;
+	sliderIndex = -1;
+};
+
+global isMouseDown = function() {
+	global mouseDown;
+	return mouseDown;
+};

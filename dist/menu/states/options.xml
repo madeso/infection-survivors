@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<state name="options" enter="onEnterOptions">
+	<object x="0.05" y="0.7">
+		<display type="text" text="menu.Option.Screen"/>
+	</object>
+	<object x="0.2" y ="0.6" timer="0">
+		<display type="text" job="menu.edit">
+			<text name="name" type="string" value="menu.Options.Edit"/>
+			<text name="input" type="callback" value="getName"/>
+			<text name="cursor" type="global" value="cursor"/>
+		</display>
+		<onChar get="getName" set="setName">
+			<action type="set_timer"/>
+			<action type="set" name="cursor"/>
+			<action type="script">:type</action>
+		</onChar>
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.Edit.Help"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+		<timer step="1" tickTime="0.4"/>
+		<timer onValue="0"><action type="set" name="cursor"/></timer>
+		<timer onValue="1"><action type="set" name="cursor" string="menu.cursor"/></timer>
+		<timer onValue="2"><action type="set_timer"/></timer>
+	</object>
+
+	<object x="0.2" y ="0.5" width="0.07" height="0.07">
+		<display type="quad" texture="menu/checked.llt" alternate="menu/unchecked.llt" test="getCheck" hover="yes"/>
+		<on value="click">
+			<action type="script">:click</action>
+			<action type="script">toggleCheck();</action>
+		</on>
+
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.BackToMain"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object x="0.2" y ="0.4" width="0.6" height="0.07">
+		<display type="slider" slider="menu/sliderbkg.llt" knobSize="0.07" offsetX="0.04" knob="menu/sliderknob.llt" test="getSliderValue" hover="yes"/>
+		<on value="click" offsetX="0.04" call="onClickSlider">
+			<action type="script">:click</action>
+		</on>
+		<on value="drag" offsetX="0.04" call="onDragSlider"/>
+
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.BackToMain"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object x="0.2" y ="0.3">
+		<display type="text" text="menu.Options.Back" hover="yes"/>
+		<on value="click">
+			<action type="script">:click</action>
+			<action type="goBack"/>
+		</on>
+
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.BackToMain"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object>
+		<onKey key="Escape">
+			<action type="script">:keyclick</action>
+			<action type="transition" to="main"/>
+		</onKey>
+	</object>
+</state>

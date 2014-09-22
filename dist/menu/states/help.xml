@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<state name="help" alwaysShow="yes">
+	<object x="0.7777777777" y ="0.05">
+		<display type="text" job="menu.help" justify="center">
+			<text name="help" type="global" value="help"/>
+		</display>
+	</object>
+</state>

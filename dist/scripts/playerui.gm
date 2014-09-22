@@ -1,0 +1,27 @@
+global movePlayer = function (time) {
+	if( .keyWeaponFirePrimary and !.oldPrimaryFire ) {
+		print("bang");
+	}
+	.oldPrimaryFire = .keyWeaponFirePrimary;
+	if( .keyMoveForward ) {
+		.moveForward(time);
+	}
+	else if( .keyMoveBackward ) {
+		.moveBackward(time);
+	}
+	if( .keyMoveLeft ) {
+		.moveLeft(time);
+	}
+	else if( .keyMoveRight ) {
+		.moveRight(time);
+	}
+
+	if( .keyJump ) {
+		.moveUp(time);
+	}
+	else if( .keyCrouch ) {
+		.moveDown(time);
+	}
+
+	.look( time, .mouseMovementRight, .mouseMovementUp );
+};

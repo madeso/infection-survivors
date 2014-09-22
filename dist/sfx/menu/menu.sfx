@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<sounds>
+	<base src="sfx/menu">
+		<sound name="menu.click" src="click1.wav"/>
+		<sound name="menu.type" src="click2.wav"/>
+	</base>
+</sounds>

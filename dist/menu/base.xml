@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<include>
+	<!--<object>
+		<display type="quad"/>
+	</object> -->
+
+	<object global="bkg">
+		<display type="quad" texture="menu/bkg.llt" uvRight="0.155555" uvTop="0.1" />
+		<!-- <textureMove xSpeed="0.01" ySpeed="0.02"/> -->
+		<randomMovement move="uv" newTargetDistance="0.05"  speed="0.02" force="0.02" height="0.9" width="0.84555555"/>
+		<constrainWithin includeSize="no" pos="uv" top="0.9" right="0.8455555"/>
+	</object>
+
+	<object global="bordertop" y="0.87" height="0.015" >
+		<display type="quad" texture="menu/border.llt" uvRight="60"/>
+		<textureMove xSpeed="-0.75"/>
+	</object>
+
+	<object global="borderbottom" y ="0.13" height="0.015" >
+		<display type="quad" texture="menu/border.llt" uvTop="-0.93" uvRight="60"/>
+		<textureMove xSpeed="0.75"/>
+	</object>
+
+	<object global="redbar" x="0.765" y="0.824" width="0.760" height="0.01">
+		<display type="quad" texture="menu/redbar.llt" uvRight="1.0"/>
+		<textureMove xSpeed="-0.05"/>
+	</object>
+
+	<object global="logotop" x="0.76" y="0.78" width="0.8" height="0.18">
+		<display type="quad" texture="menu/logo.llt" uvRight="0.64" uvBottom="0.5" />
+	</object>
+	<object global="logobottom" x="0.76" y="0.78" width="0.8" height="0.18">
+		<display type="quad" texture="menu/logo.llt" uvRight="0.64" uvTop="0.5" />
+	</object>
+
+	<object global="biohazard" x="1.23" y="0.813" Anchor_x="0.0910546875" Anchor_y="0.0868359375" width="0.18" height="0.18">
+		<display type="quad" texture="menu/biohazard.llt"/>
+		<rotation speed="90"/>
+	</object>
+</include>

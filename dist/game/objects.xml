@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<objects>
+	<object type="Camera">
+		<component type="View"/>
+		<component type="ScriptFunction" mouse="yes" keys="game/keys.xml" function="movePlayer"/>
+		<component type="SimpleMovement"/>
+		<component type="SpotLight"/>
+	</object>
+</objects>

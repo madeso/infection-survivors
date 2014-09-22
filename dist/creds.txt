@@ -1,0 +1,26 @@
+design:
+Gustav sirGustav Jansson
+
+programming:
+Gustav sirGustav Jansson
+
+2d:
+Gustav sirGustav Jansson
+
+World:
+Gustav sirGustav Jansson
+
+World textures:
+Gustav sirGustav Jansson
+
+Characters:
+Gustav sirGustav Jansson
+
+Character textures:
+Gustav sirGustav Jansson
+
+audio:
+menu & key click - agent vivid @ flashkit.com - http://www.stephenogden.com
+
+music:
+Menu - Paul Houseman Demo Music - http://www.paulhouseman.com/

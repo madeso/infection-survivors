@@ -1,0 +1,35 @@
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing File system
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing SGL system
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing OpenGL system
+d:\dev\infection\lunarlady\openglsystem.cpp(28) : Open GL Version: 2.0.1
+d:\dev\infection\lunarlady\openglsystem.cpp(29) : Open GL Vendor: NVIDIA Corporation
+d:\dev\infection\lunarlady\openglsystem.cpp(30) : Open GL Renderer: GeForce 6800/PCI/SSE2/3DNOW!
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing Font format system
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing DevIL system
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing Language system
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing Game Monkey v1.24 system
+d:\dev\infection\lunarlady\system.cpp(6) : Initializing FMOD Ex v4.6:1 system
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing game state
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing loader state
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing main state
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing console state
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing display state
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing tweakers state
+d:\dev\infection\lunarlady\state.cpp(22) : Initializing messages state
+d:\dev\infection\lunarlady\game.cpp(274) : --- Main loop: started ---
+d:\dev\infection\lunarlady\game.cpp(329) : --- Main loop: ended -----
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing main state
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing game state
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing loader state
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing tweakers state
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing display state
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing messages state
+d:\dev\infection\lunarlady\state.cpp(26) : de-Initializing console state
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing FMOD Ex v4.6:1 system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing Game Monkey v1.24 system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing Language system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing DevIL system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing Font format system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing OpenGL system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing SGL system
+d:\dev\infection\lunarlady\system.cpp(9) : De-Initializing File system

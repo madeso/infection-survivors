@@ -1,0 +1,2 @@
+Please download the redist found here:
+http://www.microsoft.com/downloads/details.aspx?familyid=200B2FD9-AE1A-4A14-984D-389C36F85647&displaylang=en

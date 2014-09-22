@@ -1,0 +1,13 @@
+LOC Lines of Code
+SLOC-P Executable Lines of Code Physical
+SLOC-L Executable Lines of Code Logical
+MVG McCabe VG complexity
+BLOC Blank Lines of Code
+C&SLOC Code and Comment Lines of Code
+CLOC Comment Lines of Code Only
+CWORD Commentary Words
+HCLOC Header Comment Lines of Code
+HCWORD Header Commentary Words
+
+File,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD,HCLOC,HCWORD
+Total,10863,8940,6081,989,1477,53,446,2168,0,0

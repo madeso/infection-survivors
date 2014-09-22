@@ -1,0 +1,5 @@
+global onEnterOptions = function () {
+	global check = true;
+	global name = "";
+	global slider = 1.0;
+};

@@ -1,0 +1,1 @@
+GL_INVALID_OPERATION: The specified operation is not allowed in the current state. The offending command is ignored, and has no other side effect than to set the error flag.

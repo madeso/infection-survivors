@@ -1,0 +1,10 @@
+global name = "";
+global setName = function(newName) {
+  global name;
+  name = newName;
+};
+
+global getName = function(newName) {
+  global name;
+  return name;
+};

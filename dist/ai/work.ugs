@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<script>
+	<type/>
+	<forever>
+		<type/>
+		<choose>
+			<for count="2">
+				<type/>
+			</for>
+			<rest/>
+			<eat_something/>
+			<smoke/>
+			<curse_computer/>
+			<talk_to>
+				<arg name="who" eval="once" action="execute" value="getRandomCoWorker()" />
+				<arg name="script" eval="once" action="choose">
+					<value>npc.worker.new_tool</value>
+					<value>npc.worker.about_boring_work</value>
+					<value>npc.worker.about_wheather</value>
+					<value>npc.worker.about_life_at_home</value>
+					<value>npc.worker.about_new_data</value>
+				</arg>
+			</talk_to>
+		</choose>
+	</forever>
+</script>

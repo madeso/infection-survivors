@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<keys>
+	<key var="keyMoveForward" key="game.controls.move.forward"/>
+	<key var="keyMoveBackward" key="game.controls.move.backward"/>
+	<key var="keyMoveLeft" key="game.controls.move.left"/>
+	<key var="keyMoveRight" key="game.controls.move.right"/>
+	<key var="keyJump" key="game.controls.jump"/>
+	<key var="keyCrouch" key="game.controls.crouch"/>
+	<key var="keyHeal" key="game.controls.heal"/>
+	<key var="keyModify" key="game.controls.modify"/>
+	<key var="keyWeaponFirePrimary" key="game.controls.weapon.fire.primary"/>
+	<key var="keyWeaponFireSecondary" key="game.controls.weapon.fire.secondary"/>
+	<key var="keyWeaponFireIndirect" key="game.controls.weapon.fire.indirect"/>
+	<key var="keyWeaponLight" key="game.controls.weapon.light"/>
+	<key var="keyWeaponHolster" key="game.controls.weapon.holster"/>
+	<key var="keyWeaponPanic" key="game.controls.weapon.panic"/>
+	<key var="keyWeaponReload" key="game.controls.weapon.reload"/>
+	<key var="keyWeaponUp" key="game.controls.weapon.up"/>
+	<key var="keyWeaponDown" key="game.controls.weapon.down"/>
+</keys>

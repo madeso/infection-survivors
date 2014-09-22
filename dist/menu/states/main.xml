@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<state name="main">
+	<object x="0.2" y ="0.6">
+		<display type="text" text="menu.Game" hover="yes"/>
+		<on value="click">
+			<action type="script">:click</action>
+			<action type="script">:startGame</action>
+		</on>
+
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.Game.Help"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object x="0.2" y ="0.5">
+		<display type="text" text="menu.Options" hover="yes"/>
+		<on value="click">
+			<action type="script">:click</action>
+			<action type="transition" to="options"/>
+		</on>
+		
+		<onHover>
+			<enter> <action type="set" name="help" string="menu.Options.Help"/> </enter>
+			<leave> <action type="set" name="help" /> </leave>
+		</onHover>
+	</object>
+	<object x="0.2" y ="0.4">
+		<display type="text" text="menu.Quit" hover="yes"/>
+		<on value="click">
+			<action type="script">:click</action>
+			<action type="transition" to="quit"/>
+		</on>
+
+		<onHover>
+			<enter>
+				<action type="set" name="help" string="menu.Quit.Help"/>
+			</enter>
+			<leave>
+				<action type="set" name="help" />
+			</leave>
+		</onHover>
+	</object>
+	<object>
+		<onKey key="Escape">
+			<action type="script">:keyclick</action>
+			<action type="transition" to="quit"/>
+		</onKey>
+	</object>
+</state>

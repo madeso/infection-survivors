@@ -1,0 +1,17 @@
+global myAlien = table(
+	Name = "Alien",
+	AttackPower = 20,
+	Strength = 50,
+	OnAttack = function( entity )
+		{
+			print( this.AttackPower );
+			print( .AttackPower );
+			if( .CanAttack ) {
+				print("attack!!!");
+			}
+			else {
+				print("failed to attack");
+			}
+			.CanAttack = true;
+		}
+	);
